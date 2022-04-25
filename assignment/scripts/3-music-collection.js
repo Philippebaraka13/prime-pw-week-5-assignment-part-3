@@ -20,7 +20,6 @@ console.log(collection);
 console.log(addToCollectiom());
 
 
-
 function showColletion(array){
 for(let i=0; i<collection.length; i++){
     if(collection[i]=== array){
@@ -46,9 +45,6 @@ function findByArtist(artist){
 }
 console.log(findByArtist('all nation'));
 console.log(findByArtist('gabriel'));
-
-
-
 
 
 
