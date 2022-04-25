@@ -26,7 +26,7 @@ for(let i=0; i<collection.length; i++){
     if(collection[i]=== array){
         return array;
     }
-    console.log(collection[i]);
+    console.log(collection[i].title,'by',collection[i].artist,'Publish',collection[i].year);
 }
 
 }
